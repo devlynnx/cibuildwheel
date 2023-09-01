@@ -1,4 +1,4 @@
-version: 2
+jversion: 2
 
 jobs:
   osx-python3.9:
