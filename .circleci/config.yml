@@ -15,7 +15,8 @@ jobs:
       - run:
           name: Test.
           command: venv/bin/python ./bin/run_tests.py
-          no_output_timeout: 30m
+          no_output_timeout: 30m0
+
 
   linux-python3.9:
     docker:
