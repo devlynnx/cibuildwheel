@@ -20,7 +20,7 @@ jobs:
 
   linux-python3.9:
     docker:
-      - image: circleci/python:3.9
+      - image: circleci/python:3.9b
     environment:
       PYTHON: python3
       # Temporarily restrict the tests that are run on CircleCI to prevent
